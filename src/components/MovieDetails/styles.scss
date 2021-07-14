@@ -1,0 +1,43 @@
+.MovieDetails {
+  display: flex;
+  .MovieDetails-flexbox__left {
+    padding: 1rem;
+    width: 100%;
+    h3 {
+      font-size: 1.4rem;
+    }
+    .MovieDetails-ratings {
+      h3 {
+        display: inline;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1.4rem;
+      }
+      p {
+        display: inline;
+        font-size: 1.4rem;
+      }
+    }
+    .MovieDetails-cast {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: space-around;
+      margin-top: 2rem;
+      .MovieDetails-cast__actorImg {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .MovieDetails-btn {
+    display: block;
+    margin: 2rem auto;
+    color: #fff;
+    background-color: #451414;
+    padding: 2rem;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}

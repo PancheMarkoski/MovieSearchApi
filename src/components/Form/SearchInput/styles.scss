@@ -1,0 +1,23 @@
+.SearchForm {
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  .SearchForm-label {
+    font-size: 1.4rem;
+  }
+  .SearchForm-input {
+    .SearchForm-icon {
+      font-size: 2rem;
+    }
+    input {
+      background-color: #e7f7f5;
+      font-size: 2rem;
+      border-radius: 1rem;
+      padding: 1rem;
+      border: 1px solid #978e8e;
+    }
+  }
+}
